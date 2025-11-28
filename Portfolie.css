@@ -1,0 +1,84 @@
+/*begin body*/
+body {
+    margin: 0;
+    color: white;
+    font-family: "Cherry Bomb One", system-ui;
+    letter-spacing: 3px;
+    font-weight: normal;
+    background-color: hsl(0, 0%, 0%);
+}
+
+/*begin top bar*/
+#top-bar {
+    background-color: hsl(295, 100%, 13%);
+    height: 220px;
+
+    width: 100%;
+}
+
+/*begin main*/
+main {
+    margin-left: 150px;
+}
+
+/*begin side bar*/
+#side-bar {
+    position: fixed;
+    background-color: hsl(296, 83%, 12%);
+    width: 240px;
+    height: 100%;
+
+}
+
+.overlay {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: hsla(301, 96%, 17%, 0.5);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    transition: .5s ease;
+
+}
+
+#side-bar-profile-card:hover .overlay {
+    height: 100%;
+}
+
+#side-bar-profile-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background: hsl(296, 88%, 13%);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    transition: 10s ease-in;
+
+}
+
+/*begin main-info*/
+#main-info {
+    background-color: black;
+    height: 2500px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    margin-left: 250px;
+    background: #780A7D;
+    height: 3000px;
+    width: 1000px;
+
+}
