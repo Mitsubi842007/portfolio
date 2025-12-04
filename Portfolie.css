@@ -1,4 +1,4 @@
-/*begin body*/
+/*----------DEFAULT SETTINGS------------*/
 body {
     margin: 0;
     color: white;
@@ -8,7 +8,7 @@ body {
     background-color: hsl(0, 0%, 0%);
 }
 
-/*begin top bar*/
+/*---------TOP BAR SETTINGS----------*/
 #top-bar {
     background-color: hsl(295, 100%, 13%);
     height: 220px;
@@ -16,12 +16,12 @@ body {
     width: 100%;
 }
 
-/*begin main*/
+/*---------MAIN SETTINGS--------*/
 main {
     margin-left: 150px;
 }
 
-/*begin side bar*/
+/*----------SIDE-BAR SETTINGS ------------*/
 #side-bar {
     position: fixed;
     background-color: hsl(296, 86%, 28%);
@@ -66,12 +66,12 @@ main {
     font-size: 12px;
 }
 
-/*begin main-info*/
+/*----------BEHIND THE WHOLE BODY SETTINGS----------*/
 #main-info {
     background-color: black;
     height: 2500px;
 }
-
+/*--------------THE WHOLE BODY SETTINGS------------*/
 .main-container {
     display: flex;
     flex-direction: row;
@@ -88,7 +88,7 @@ main {
 
 
 
-/*begin footer*/
+/*-----------FOOTER SETTINGS---------------*/
 .footer {
     display: flex;
     position: fixed;
