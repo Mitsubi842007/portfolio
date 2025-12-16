@@ -310,6 +310,7 @@ main {
 .talent1 h3 {
     font-size: 15px;
     margin-left: 140px;
+    text-decoration: underline 4px;
 
 }
 .talent1 h5{
@@ -351,8 +352,20 @@ font-size: 15px;
 .talent2 h3 {
     font-size: 15px;
     margin-left: 80px;
+    text-decoration: underline 4px;
 
 }
+.talent2 h5{
+font-size: 12px;
+    margin-left: 15px;
+    text-decoration: underline 4px;
+    
+}
+
+
+
+
+
 
 /*-----------FOOTER SETTINGS---------------*/
 .footer {
