@@ -278,12 +278,13 @@ main {
     color: black;
 }
 
+/*-----TALENTS 1 SETTINGS*/
 .talent1 {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: start;
-    align-items: center;
+    align-items: start;
     align-content: center;
     margin-left: 50px;
     margin-top: 30px;
@@ -294,33 +295,64 @@ main {
     color: black;
 }
 
-
-.talent2 img {
+.talent1 img {
     height: 40px;
     width: 40px;
+    margin-left: 15px;
+}
+
+.talent1 p {
+    font-size: 11px;
+    margin-left: 15px;
+
+}
+
+.talent1 h3 {
+    font-size: 15px;
+    margin-left: 140px;
+
+}
+.talent1 h5{
+font-size: 15px;
+    margin-left: 15px;
+    text-decoration: underline 4px;
     
 }
+/*-----TALENTS 2 SETTINGS*/
 
 .talent2 {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: start;
-    align-items: center;
+    align-items: start;
     align-content: center;
     margin-left: 50px;
     margin-top: 30px;
     background: white;
     height: 460px;
     width: 400px;
-
     border-radius: 10px;
-
     color: black;
 }
 
+.talent2 img {
+    height: 40px;
+    width: 40px;
+    margin-left: 15px;
 
+}
 
+.talent2 p {
+    font-size: 11px;
+    margin-left: 15px;
+}
+
+.talent2 h3 {
+    font-size: 15px;
+    margin-left: 80px;
+
+}
 
 /*-----------FOOTER SETTINGS---------------*/
 .footer {
